@@ -25,4 +25,5 @@ int main() {
     list_foreach(&L, print_int);
     list_foreach(&L, add1);
     list_foreach(&L, print_int);
+    list_free(&L);
 }
